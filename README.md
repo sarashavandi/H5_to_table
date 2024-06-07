@@ -17,10 +17,12 @@ pip install .
 
 
 #Usage:
-To convert the h5 file to a table write the following code in your Python/notebook.
+Convert all datasets in an HDF5 file to a dictionary of Pandas DataFrames.
+This function reads an HDF5 file and converts each dataset into a Pandas DataFrame.
+The resulting DataFrames are stored in a dictionary where the keys are the dataset paths and the values are the corresponding DataFrames.
 
-import h5_to_table
-table = ht_to_table.convert(filename) `
+For more information, check out the documentation for h5_to_dataframe.
+
 
 #Authors:
 H5_To_TABLE Like a Boss-TEAM
