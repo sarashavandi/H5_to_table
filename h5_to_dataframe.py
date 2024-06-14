@@ -1,6 +1,7 @@
 import os
 import h5py
 import pandas as pd
+import hdf5plugin
 
 def h5_to_dataframe(h5_file_path):
     """
